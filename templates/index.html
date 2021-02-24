@@ -1,0 +1,38 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://wallpapercave.com/wp/wp2539492.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>An Online Shop</h1>
+            <span class="subheading">We sell things here. Honestly! Things!!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview">
+          <a href="{{ url_for('store') }}">
+            <h2 class="post-title">
+              A BOOK.
+            </h2>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vbXik9x7TOGfc0xqYaVMjgHaFZ%26pid%3DApi&f=1" alt="">
+          </a>
+          <p class="post-meta">Buy for £0.01</p>
+
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+{% include "footer.html" %}
